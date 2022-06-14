@@ -11,11 +11,23 @@
     height: 80vh;
     background-size: contain;
     background-repeat: no-repeat;   
-    background-position: center; 
+    background-position: center;
+    flex-direction: column; 
 }
 .encabezado-img {
     width:10rem;
     margin: 0%;
+}
+.bg-propio {
+    background-color: rgb(185, 37, 37);
+    position: fixed;
+}
+.nav-item a {
+    color: aliceblue!important;
+    font-size: 30px;
+}
+.nav-item a:hover {
+    color: black!important;
 }
 nav {
     justify-content: space-around;
