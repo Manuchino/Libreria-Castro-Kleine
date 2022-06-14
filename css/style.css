@@ -21,6 +21,8 @@
 .bg-propio {
     background-color: rgb(185, 37, 37);
     position: fixed;
+    width: 100%;
+    
 }
 .nav-item a {
     color: aliceblue!important;
