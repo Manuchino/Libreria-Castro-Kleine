@@ -121,20 +121,7 @@ nav ul li a {
     align-items: center;
     margin-bottom: 2rem;
 }
-.catalogo {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px;
-    width: 80%;
-    justify-content: center;
-    grid-gap: 1rem;
-}
-.catalogo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 
-}
 .ejemplares{
     grid-row-start: span 2;
 }
