@@ -22,7 +22,7 @@
     background-color: rgb(185, 37, 37);
     position: fixed;
     width: 100%;
-    
+    z-index: 999;
 }
 .nav-item a {
     color: aliceblue!important;
@@ -89,13 +89,7 @@ nav ul li a {
     display: inline-block;
     width: 10%;
 }
-.container-libros {
-    display: flex;
-    flex: wrap;
-    justify-content: center;
-    gap: 2rem;
-    
-}
+
 .libros{
     width: 18rem;
 }
