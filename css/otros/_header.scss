@@ -1,0 +1,41 @@
+.encabezado {
+    background-image: url(.../img/dickens.jpg);
+    height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+     
+      .bg-propio {
+        background-color: rgb(185, 37, 37);
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        img {
+            width: 10rem;
+            margin: 0%;
+          }
+      }
+      
+  }
+  
+  
+  .navbar-nav {
+    justify-content: space-around;
+    background-color: rgb(185, 37, 37);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+     a {
+        color: aliceblue !important;
+        font-size: 30px;
+        &:hover {
+            color: black !important;
+        }
+      }
+  }
+  
+  
+  
+  
