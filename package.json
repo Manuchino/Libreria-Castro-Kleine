@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuchino/aca-si-se-gitea.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manuchino/aca-si-se-gitea/issues"
+  },
+  "homepage": "https://github.com/Manuchino/aca-si-se-gitea#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18"
+  }
+  "build-css":
+  "node-sass --include-path scssscss/prueba.scsscss/pruebacss.css"
+  "watch-css": "nodemon -e scss -x/"npm run build-css/"
+
+}
