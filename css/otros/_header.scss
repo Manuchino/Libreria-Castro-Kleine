@@ -19,22 +19,28 @@
       
   }
   
-  
-  .navbar-nav {
-    justify-content: space-around;
-    background-color: rgb(185, 37, 37);
-    display: flex;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-     a {
-        color: aliceblue !important;
-        font-size: 30px;
-        &:hover {
-            color: black !important;
+  .collapse {
+    @extend .navbar-nav;
+    justify-content: start;
+
+    .navbar-nav {
+      justify-content:space-around;
+      background-color: rgb(185, 37, 37);
+      display: flex;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+       a {
+          color: aliceblue !important;
+          font-size: 30px;
+          &:hover {
+              color: black !important;
+          }
         }
-      }
-  }
+    }
+  } 
+  
+
   
   
   

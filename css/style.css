@@ -19,7 +19,10 @@
   margin: 0%;
 }
 
-.navbar-nav {
+.collapse {
+  justify-content: start;
+}
+.collapse .navbar-nav, .collapse .collapse {
   justify-content: space-around;
   background-color: rgb(185, 37, 37);
   display: flex;
@@ -27,11 +30,11 @@
   position: fixed;
   width: 100%;
 }
-.navbar-nav a {
+.collapse .navbar-nav a, .collapse .collapse a {
   color: aliceblue !important;
   font-size: 30px;
 }
-.navbar-nav a:hover {
+.collapse .navbar-nav a:hover, .collapse .collapse a:hover {
   color: black !important;
 }
 
